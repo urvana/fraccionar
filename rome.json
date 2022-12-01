@@ -1,0 +1,52 @@
+{
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "lineWidth": 120,
+    "ignore": [
+      "node_modules",
+      "public",
+      "yarn.lock",
+      ".next",
+      ".vercel",
+      ".git"
+    ]
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "recommended": true,
+        "useValidAnchor": "off",
+        "useAnchorContent": "off",
+        "useKeyWithClickEvents": "off"
+      },
+      "complexity": {
+        "recommended": true
+      },
+      "correctness": {
+        "recommended": true
+      },
+      "nursery": {
+        "recommended": true
+      },
+      "security": {
+        "recommended": true,
+        "noDangerouslySetInnerHtml": "warn"
+      },
+      "style": {
+        "recommended": true,
+        "useOptionalChain": "off"
+      }
+    },
+    "ignore": [
+      "node_modules",
+      "public",
+      "yarn.lock",
+      ".next",
+      ".vercel",
+      ".git"
+    ]
+  }
+}
