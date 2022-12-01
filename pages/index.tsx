@@ -19,7 +19,7 @@ export default function PagesRoot() {
             <p>Es con L al final.</p>
             <p>Errar es humano.</p>
             <p>
-              <em>Ellal</em> si lo escribimos <em>Errar</em> solo con Ls.
+              <em>Ellal</em> si escribimos <em>Errar</em> solo con Ls.
             </p>
           </div>
           <div className="mt-6">
