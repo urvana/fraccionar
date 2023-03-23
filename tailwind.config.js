@@ -1,3 +1,6 @@
+const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class", // for next-themes
@@ -8,7 +11,11 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["var(--skin-font-sans)", ...defaultTheme.fontFamily.sans],
+      },
+    }
   },
   plugins: [],
 };

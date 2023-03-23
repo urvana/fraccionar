@@ -11,13 +11,28 @@ html {
   font-size: 16px;
 
   /* Disable Android highlight */
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
-
-  @apply h-full min-h-screen;
 }
 
 /* Ensure full height in top 3 root html tags */
-html, body, #__next {
+#__next {
   @apply flex-1 flex flex-col;
 }
+
+@layer components {
+  /* https://tailwindui.com/components/application-ui/elements/buttons */
+
+  /* Add here */
+}
+
+/* Intercom responsive hacks */
+/* .intercom-lightweight-app-launcher.intercom-launcher {
+  @apply !mb-[calc(4rem+env(safe-area-inset-bottom))] lg:!mb-0;
+}
+.intercom-dfosxs {
+  @apply !mb-[calc(4rem+env(safe-area-inset-bottom))] lg:!mb-0;
+}
+.intercom-messenger-frame {
+  @apply !mb-[calc(4rem+env(safe-area-inset-bottom))] lg:!mb-0;
+} */
