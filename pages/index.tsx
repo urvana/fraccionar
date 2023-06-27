@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 
-import img from "~/public/mestreensinador.webp";
+import img_mestreensinador from "~/public/mestreensinador.webp";
+import img_meme_hormiga from "~/public/meme_hormiga.png";
 
 export default function PagesRoot() {
   const href = "https://www.fraccional.cl?ref=fraccionar";
@@ -30,7 +31,7 @@ export default function PagesRoot() {
           <div className="mt-8 text-2xl">
             <p>
               <span className="hover:text-gray-500 transition-colors">
-                <a className="underline" href={href}>
+                <a className="underline" href={href} rel="follow referrer noopener">
                   Enmendar mis errores e ir a Fraccional.cl
                 </a>
                 {" 👈"}
@@ -40,9 +41,26 @@ export default function PagesRoot() {
 
           <div className="mt-20">
             <a className="underline" href={href}>
-              <Image src={img} alt="Fraccional cuando era bebé" />
+              <Image className="" src={img_meme_hormiga} alt="Meme de la hormiga con un palo" />
             </a>
             <p className="text-gray-500 text-sm mt-1">Fraccional cuando era bebé</p>
+          </div>
+
+          <div className="mt-20 space-y-4">
+            <a
+              className="block w-full text-yellow-500 text-center underline"
+              href={href}
+              rel="follow referrer noopener"
+            >
+              Ir a Fraccional.cl
+            </a>
+            <a
+              className="block w-full text-gray-500 text-center"
+              href={href}
+              rel="follow referrer noopener"
+            >
+              Ver código en GitHub
+            </a>
           </div>
         </header>
       </section>

@@ -15,7 +15,7 @@ module.exports = {
       fontFamily: {
         sans: ["var(--skin-font-sans)", ...defaultTheme.fontFamily.sans],
       },
-    }
+    },
   },
   plugins: [],
 };

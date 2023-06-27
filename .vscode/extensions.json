@@ -1,8 +1,8 @@
 {
-    "recommendations": [
-        "streetsidesoftware.code-spell-checker",
-        "streetsidesoftware.code-spell-checker-spanish",
-        "bradlc.vscode-tailwindcss",
-        "rome.rome"
-    ]
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-spanish",
+    "bradlc.vscode-tailwindcss",
+    "rome.rome"
+  ]
 }
