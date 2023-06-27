@@ -56,7 +56,7 @@ export default function PagesRoot() {
             </a>
             <a
               className="block w-full text-gray-500 text-center"
-              href={href}
+              href={"https://github.com/urvana/fraccionar"}
               rel="follow referrer noopener"
             >
               Ver código en GitHub
