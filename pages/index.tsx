@@ -43,7 +43,7 @@ export default function PagesRoot() {
             <a className="underline" href={href}>
               <Image className="" src={img_meme_hormiga} alt="Meme de la hormiga con un palo" />
             </a>
-            <p className="text-gray-500 text-sm mt-1">Fraccional cuando era bebé</p>
+            <p className="text-gray-500 text-sm mt-1">Somos ese</p>
           </div>
 
           <div className="mt-20 space-y-4">
