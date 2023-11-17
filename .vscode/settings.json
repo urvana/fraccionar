@@ -1,8 +1,8 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "editor.defaultFormatter": "rome.rome",
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": false,
   "editor.formatOnType": false,
   "editor.formatOnPaste": false,
-  "cSpell.words": ["fraccional", "rome", "tailwindcss", "volta"]
+  "cSpell.words": ["fraccional", "tailwindcss", "volta"]
 }

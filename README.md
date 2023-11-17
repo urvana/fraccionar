@@ -11,11 +11,11 @@ El sitio que buscas es https://www.fraccional.cl
 Install dependencies:
 
 ```sh
-yarn install
+pnpm install
 ```
 
 Run linter with:
 
 ```sh
-yarn run rome format . --write
+pnpm dlx @biomejs/biome check --apply .
 ```
