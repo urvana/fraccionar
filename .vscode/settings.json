@@ -4,5 +4,12 @@
   "editor.formatOnSave": false,
   "editor.formatOnType": false,
   "editor.formatOnPaste": false,
-  "cSpell.words": ["fraccional", "tailwindcss", "volta"]
+  "cSpell.words": [
+    "fraccional",
+    "tailwindcss",
+    "volta"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }
