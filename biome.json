@@ -1,32 +1,21 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "files": {
-    "maxSize": 10000000000,
+    "ignore": [".next", "node_modules"],
     "include": [
-      "atoms",
       "components",
-      "generated",
       "hooks",
       "i18n",
       "layouts",
       "lib",
       "pages",
-      "schema",
-      "server",
-      "supabase",
-      "supabase-functions",
       "types",
       "utils",
       "biome.json",
-      "graphql.config.js",
-      "jest.config.js",
-      "jest.setup.js",
-      "middleware.ts",
       "next.config.js",
       "package.json",
       "postcss.config.js",
       "tailwind.config.js",
-      "tailwind.plugins.cjs",
       "tsconfig.json"
     ]
   },

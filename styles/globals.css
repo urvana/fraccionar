@@ -6,7 +6,6 @@
 html {
   /*
    * Set whole application default font-size for tailwind rem-based units
-   * This is overwritten in _app.tsx
    */
   font-size: 16px;
 
