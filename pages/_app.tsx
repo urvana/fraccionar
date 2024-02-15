@@ -1,10 +1,12 @@
-import "~/styles/globals.css";
+import "../styles/globals.css";
 
 import { clsx } from "clsx";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
 
 import { font } from "~/styles/font";
+import { ApolloProvider } from "@apollo/client";
+import client from "../app/lib/apollo-client";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -14,9 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
       themes={["system", "light", "dark"]}
       storageKey={"fraccionar.theme"}
     >
-      <Wrap>
-        <Component {...pageProps} />
-      </Wrap>
+      <ApolloProvider client={client}>
+        <Wrap>
+          <Component {...pageProps} />
+        </Wrap>
+      </ApolloProvider>
     </ThemeProvider>
   );
 }
